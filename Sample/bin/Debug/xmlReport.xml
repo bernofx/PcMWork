@@ -1,0 +1,81 @@
+<?xml version="1.0" standalone="yes"?>
+<DatiStampa>
+  <xs:schema id="DatiStampa" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="DatiStampa" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="DatiStampa">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Id" type="xs:int" />
+                <xs:element name="Cod">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Nome">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="100" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Cognome">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="200" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Attivo" type="xs:boolean" />
+                <xs:element name="DataInserimento" type="xs:dateTime" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <DatiStampa>
+    <Id>1</Id>
+    <Cod>001</Cod>
+    <Nome>Giuseppe</Nome>
+    <Cognome>Bernasconi</Cognome>
+    <Attivo>false</Attivo>
+    <DataInserimento>2015-10-25T00:00:00+02:00</DataInserimento>
+  </DatiStampa>
+  <DatiStampa>
+    <Id>2</Id>
+    <Cod>002</Cod>
+    <Nome>Emanuele</Nome>
+    <Cognome>Amato</Cognome>
+    <Attivo>true</Attivo>
+    <DataInserimento>2000-01-01T00:00:00+01:00</DataInserimento>
+  </DatiStampa>
+  <DatiStampa>
+    <Id>8</Id>
+    <Cod>003</Cod>
+    <Nome>Pinco</Nome>
+    <Cognome>Pallino</Cognome>
+    <Attivo>false</Attivo>
+    <DataInserimento>2015-10-21T00:00:00+02:00</DataInserimento>
+  </DatiStampa>
+  <DatiStampa>
+    <Id>10</Id>
+    <Cod>005</Cod>
+    <Nome>Giuseppe</Nome>
+    <Cognome>Bernaschina</Cognome>
+    <Attivo>true</Attivo>
+    <DataInserimento>2015-10-25T00:00:00+02:00</DataInserimento>
+  </DatiStampa>
+  <DatiStampa>
+    <Id>11</Id>
+    <Cod>006</Cod>
+    <Nome>Pincor2</Nome>
+    <Cognome>Pallino</Cognome>
+    <Attivo>false</Attivo>
+    <DataInserimento>2015-10-21T00:00:00+02:00</DataInserimento>
+  </DatiStampa>
+</DatiStampa>

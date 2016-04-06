@@ -1,0 +1,49 @@
+C:\Users\Giuseppe\Documents\Visual Studio 2012\Projects\PcmWork\Sample\bin\Debug\Sample.exe
+C:\Users\Giuseppe\Documents\Visual Studio 2012\Projects\PcmWork\Sample\bin\Debug\Sample.pdb
+C:\Users\Giuseppe\Documents\Visual Studio 2012\Projects\PcmWork\Sample\bin\Debug\_FunzioniBase.dll
+C:\Users\Giuseppe\Documents\Visual Studio 2012\Projects\PcmWork\Sample\bin\Debug\_FunzioniBase.pdb
+C:\Users\Giuseppe\Documents\Visual Studio 2012\Projects\PcmWork\Sample\obj\Debug\Sample.csprojResolveAssemblyReference.cache
+C:\Users\Giuseppe\Documents\Visual Studio 2012\Projects\PcmWork\Sample\obj\Debug\Sample.Form1.resources
+C:\Users\Giuseppe\Documents\Visual Studio 2012\Projects\PcmWork\Sample\obj\Debug\Sample.Properties.Resources.resources
+C:\Users\Giuseppe\Documents\Visual Studio 2012\Projects\PcmWork\Sample\obj\Debug\Sample.csproj.GenerateResource.Cache
+C:\Users\Giuseppe\Documents\Visual Studio 2012\Projects\PcmWork\Sample\obj\Debug\Sample.exe
+C:\Users\Giuseppe\Documents\Visual Studio 2012\Projects\PcmWork\Sample\obj\Debug\Sample.pdb
+C:\Users\Giuseppe\Documents\Visual Studio 2012\Projects\PcmWork\Sample\obj\Debug\Sample.MDIParent1.resources
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\Sample\obj\Debug\Sample.exe
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\Sample\obj\Debug\Sample.pdb
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\Sample\bin\Debug\Sample.exe
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\Sample\bin\Debug\Sample.pdb
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\Sample\bin\Debug\_FunzioniBase.dll
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\Sample\bin\Debug\_FunzioniBase.pdb
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\Sample\obj\Debug\Sample.csprojResolveAssemblyReference.cache
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\Sample\obj\Debug\Sample.Form1.resources
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\Sample\obj\Debug\Sample.MDIParent1.resources
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\Sample\obj\Debug\Sample.Properties.Resources.resources
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\Sample\obj\Debug\Sample.csproj.GenerateResource.Cache
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\Sample\obj\Debug\Sample.frmClienteEdit.resources
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\Sample\obj\Debug\Sample.AnteprimaStampa.resources
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\Sample\obj\Debug\Interop.CrystalPrintControlLib.dll
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\Sample\obj\Debug\Interop.CrystalReportsDTSAgentLib.dll
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\Sample\obj\Debug\Interop.CrystalReportsLocalConnectionMgrLib.dll
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\Sample\obj\Debug\Sample.csproj.ResolveComReference.cache
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\Sample\bin\Debug\Sample.exe.config
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\Sample\obj\Debug\Sample.FormBase.resources
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\Sample\bin\Debug\Sample.exe.config
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\Sample\obj\Debug\Sample.csproj.ResolveComReference.cache
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\Sample\obj\Debug\Sample.exe
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\Sample\obj\Debug\Sample.pdb
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\Sample\obj\Debug\Sample.csprojResolveAssemblyReference.cache
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\Sample\obj\Debug\Sample.AnteprimaStampa.resources
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\Sample\obj\Debug\Sample.Form1.resources
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\Sample\obj\Debug\Sample.FormBase.resources
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\Sample\obj\Debug\Sample.frmClienteEdit.resources
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\Sample\obj\Debug\Sample.MDIParent1.resources
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\Sample\obj\Debug\Sample.Properties.Resources.resources
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\Sample\obj\Debug\Sample.csproj.GenerateResource.Cache
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\Sample\obj\Debug\Interop.CrystalPrintControlLib.dll
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\Sample\obj\Debug\Interop.CrystalReportsDTSAgentLib.dll
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\Sample\obj\Debug\Interop.CrystalReportsLocalConnectionMgrLib.dll
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\Sample\bin\Debug\Sample.exe
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\Sample\bin\Debug\Sample.pdb
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\Sample\bin\Debug\_FunzioniBase.dll
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\Sample\bin\Debug\_FunzioniBase.pdb

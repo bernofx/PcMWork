@@ -1,0 +1,23 @@
+C:\Users\Giuseppe\Documents\Visual Studio 2012\Projects\PcmWork\_FunzioniBase\bin\Debug\_FunzioniBase.dll
+C:\Users\Giuseppe\Documents\Visual Studio 2012\Projects\PcmWork\_FunzioniBase\bin\Debug\_FunzioniBase.pdb
+C:\Users\Giuseppe\Documents\Visual Studio 2012\Projects\PcmWork\_FunzioniBase\bin\Debug\MySql.Data.dll
+C:\Users\Giuseppe\Documents\Visual Studio 2012\Projects\PcmWork\_FunzioniBase\obj\Debug\_FunzioniBase.Properties.Resources.resources
+C:\Users\Giuseppe\Documents\Visual Studio 2012\Projects\PcmWork\_FunzioniBase\obj\Debug\_FunzioniBase.csproj.GenerateResource.Cache
+C:\Users\Giuseppe\Documents\Visual Studio 2012\Projects\PcmWork\_FunzioniBase\obj\Debug\_FunzioniBase.dll
+C:\Users\Giuseppe\Documents\Visual Studio 2012\Projects\PcmWork\_FunzioniBase\obj\Debug\_FunzioniBase.pdb
+C:\Users\Giuseppe\Documents\Visual Studio 2012\Projects\PcmWork\_FunzioniBase\obj\Debug\_FunzioniBase.csprojResolveAssemblyReference.cache
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\_FunzioniBase\bin\Debug\_FunzioniBase.dll
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\_FunzioniBase\bin\Debug\_FunzioniBase.pdb
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\_FunzioniBase\bin\Debug\MySql.Data.dll
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\_FunzioniBase\obj\Debug\_FunzioniBase.Properties.Resources.resources
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\_FunzioniBase\obj\Debug\_FunzioniBase.csproj.GenerateResource.Cache
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\_FunzioniBase\obj\Debug\_FunzioniBase.dll
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\_FunzioniBase\obj\Debug\_FunzioniBase.pdb
+C:\Users\Giuseppe\Copy\Progetti\PcmWork\_FunzioniBase\obj\Debug\_FunzioniBase.csprojResolveAssemblyReference.cache
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\_FunzioniBase\bin\Debug\_FunzioniBase.dll
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\_FunzioniBase\bin\Debug\_FunzioniBase.pdb
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\_FunzioniBase\obj\Debug\_FunzioniBase.csprojResolveAssemblyReference.cache
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\_FunzioniBase\obj\Debug\_FunzioniBase.Properties.Resources.resources
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\_FunzioniBase\obj\Debug\_FunzioniBase.csproj.GenerateResource.Cache
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\_FunzioniBase\obj\Debug\_FunzioniBase.dll
+C:\Users\berno\OneDrive\Documents\ExCopy\Progetti\PcmWork\_FunzioniBase\obj\Debug\_FunzioniBase.pdb

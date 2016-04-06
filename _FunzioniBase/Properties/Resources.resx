@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ConnectionString" xml:space="preserve">
-    <value>Data Source=NOTEBOOKPB\SQLEXPRESS;User ID=sa;Password=Pennybridge;Persist Security Info=True;Initial Catalog=pcmwork;</value>
+    <value>Data Source=DESKTOP-J59G0DV\SQLEXPRESS;User ID=sa;Password=Pennybridge;Persist Security Info=True;Initial Catalog=pcmwork;</value>
   </data>
   <data name="SqlCreaTabMex" xml:space="preserve">
-    <value>CREATE TABLE #pcm_Messaggio (
+    <value>CREATE TABLE #brn_Messaggio (
     Id INT IDENTITY(1,1),
     Tipo NCHAR(1),
     Messaggio NVARCHAR(2000)
@@ -135,14 +135,14 @@ create table  #brn_output
         ( Id int identity primary key,Name nvarchar(200),Data nvarchar(max) )</value>
   </data>
   <data name="SqlDropMex" xml:space="preserve">
-    <value>drop table #pcm_Messaggio</value>
+    <value>drop table #brn_Messaggio</value>
   </data>
   <data name="SqlDropTabTemp" xml:space="preserve">
     <value>drop table #brn_input
 drop table #brn_output</value>
   </data>
   <data name="SqlLeggiMex" xml:space="preserve">
-    <value>select * from #pcm_Messaggio</value>
+    <value>select * from #brn_Messaggio</value>
   </data>
   <data name="SqlLeggiTabTemp" xml:space="preserve">
     <value>Select * from #brn_output</value>

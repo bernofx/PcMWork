@@ -61,7 +61,7 @@ namespace _FunzioniBase.Properties {
         }
         
         /// <summary>
-        ///   Cerca una stringa localizzata simile a Data Source=NOTEBOOKPB\SQLEXPRESS;User ID=sa;Password=Pennybridge;Persist Security Info=True;Initial Catalog=pcmwork;.
+        ///   Cerca una stringa localizzata simile a Data Source=DESKTOP-J59G0DV\SQLEXPRESS;User ID=sa;Password=Pennybridge;Persist Security Info=True;Initial Catalog=pcmwork;.
         /// </summary>
         internal static string ConnectionString {
             get {
@@ -70,7 +70,7 @@ namespace _FunzioniBase.Properties {
         }
         
         /// <summary>
-        ///   Cerca una stringa localizzata simile a CREATE TABLE #pcm_Messaggio (
+        ///   Cerca una stringa localizzata simile a CREATE TABLE #brn_Messaggio (
         ///    Id INT IDENTITY(1,1),
         ///    Tipo NCHAR(1),
         ///    Messaggio NVARCHAR(2000)
@@ -96,7 +96,7 @@ namespace _FunzioniBase.Properties {
         }
         
         /// <summary>
-        ///   Cerca una stringa localizzata simile a drop table #pcm_Messaggio.
+        ///   Cerca una stringa localizzata simile a drop table #brn_Messaggio.
         /// </summary>
         internal static string SqlDropMex {
             get {
@@ -115,7 +115,7 @@ namespace _FunzioniBase.Properties {
         }
         
         /// <summary>
-        ///   Cerca una stringa localizzata simile a select * from #pcm_Messaggio.
+        ///   Cerca una stringa localizzata simile a select * from #brn_Messaggio.
         /// </summary>
         internal static string SqlLeggiMex {
             get {

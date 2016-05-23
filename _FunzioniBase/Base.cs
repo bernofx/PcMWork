@@ -125,7 +125,16 @@ namespace _FunzioniBase
                         r[j] = valori[j] == "1";
                     }else
                         if (!( valori[j] == "") || ((valori[j] == "") && object.Equals(table.Columns[j].DataType, System.Type.GetType("System.String")))) {
-                            r[j] = Convert.ChangeType(valori[j], table.Columns[j].DataType);
+                            if (!(table.Columns[j].DataType.ToString() == "System.DateTime"))
+                            {
+                                r[j] = Convert.ChangeType(valori[j], table.Columns[j].DataType);
+                            }
+                            else {
+                                System.DateTime dataLetta;
+                                string[] format = { "yyyyMMdd" };
+                                DateTime.TryParseExact(valori[j].ToString(), format, System.Globalization.CultureInfo.InvariantCulture, System.Globalization.DateTimeStyles.None, out dataLetta);
+                                if (!(dataLetta == null)) { r[j] = dataLetta; }
+                            }
                         }
                         else
                         {
@@ -261,9 +270,9 @@ namespace _FunzioniBase
             BeginTransaction();
             try
             {
-                SqlCommand creaTabMex = new SqlCommand(_FunzioniBase.Properties.Resources.SqlCreaTabMex, cnn, Tran);
+                //SqlCommand creaTabMex = new SqlCommand(_FunzioniBase.Properties.Resources.SqlCreaTabMex, cnn, Tran);
                 SqlCommand creaTabTemp = new SqlCommand(_FunzioniBase.Properties.Resources.SqlCreaTabTemp, cnn, Tran);
-                creaTabMex.ExecuteNonQuery();
+                //creaTabMex.ExecuteNonQuery();
                 creaTabTemp.ExecuteNonQuery();
                 SqlCommand insertInput = new SqlCommand("INSERT INTO #brn_input (Name,Data) Values (@Name,@Data)", cnn, Tran);
                 foreach (Tabella t in Par)
@@ -455,25 +464,31 @@ namespace _FunzioniBase
             {
                 for (int i = 0; i < tab.Columns.Count; i++)
                 {
-                    if ((tab.Columns[i].DataType.ToString() == "System.String") || (tab.Columns[i].DataType.ToString() == "System.Int32"))
-                    { 
-                        Ris.Data += dr[i].ToString()+'\t';
-                    }
-                    if (tab.Columns[i].DataType.ToString() == "System.Decimal")
+                    if (!Convert.IsDBNull(dr[i]))
                     {
-                        Ris.Data += dr[i].ToString().Replace(',','.')+'\t';
-                    }
-                    if (tab.Columns[i].DataType.ToString() == "System.DateTime")
+                        if ((tab.Columns[i].DataType.ToString() == "System.String") || (tab.Columns[i].DataType.ToString() == "System.Int32"))
+                        {
+                            Ris.Data += dr[i].ToString() + '\t';
+                        }
+                        if (tab.Columns[i].DataType.ToString() == "System.Decimal")
+                        {
+                            Ris.Data += dr[i].ToString().Replace(',', '.') + '\t';
+                        }
+                        if ((tab.Columns[i].DataType.ToString() == "System.DateTime"))
+                        {
 
-                    {
-                        Ris.Data += Convert.ToDateTime(dr[i]).ToString("yyyyMMdd") + '\t';
+                            Ris.Data += Convert.ToDateTime(dr[i]).ToString("yyyyMMdd") + '\t';
+
+                        }
+                        if (tab.Columns[i].DataType.ToString() == "System.Boolean")
+                        {
+                            if (Convert.ToBoolean(dr[i])) Ris.Data += "1";
+                            else Ris.Data += "0";
+                            Ris.Data += '\t';
+                        }
                     }
-                    if (tab.Columns[i].DataType.ToString() == "System.Boolean")
-                    {
-                        if (Convert.ToBoolean(dr[i])) Ris.Data += "1";
-                        else Ris.Data += "0";
+                    else
                         Ris.Data += '\t';
-                    }
                 }
                 Ris.Data = Ris.Data.Substring(0, Ris.Data.Length - 1);
                 Ris.Data += '\n';

@@ -601,6 +601,7 @@ using DateTimePickerWithBackColor;
             }
             if (myControl.GetType() == typeof(BCDateTimePicker))
             {
+                if (!(Convert.IsDBNull(valore)))
                 ((BCDateTimePicker)myControl).Value = Convert.ToDateTime(valore);
 
             }

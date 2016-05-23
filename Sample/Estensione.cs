@@ -289,9 +289,14 @@ using DateTimePickerWithBackColor;
            
             BindingSource bs = new BindingSource();
            // tabella.Columns.Add("_Sel", typeof(Boolean));
+            if (!(tabella.Columns.Contains("Id")))
+                tabella.Columns.Add("Id", typeof(Int32));
+
+
             bs.DataSource = tabella;
             ((DataGridView)myControl).DataSource = bs;
             ((DataGridView)myControl).AutoGenerateColumns = true;
+           
             ((DataGridView)myControl).Columns["Id"].Visible = false;
             //((DataGridView)myControl).Columns["_Sel"].Visible = false;
             ((DataGridView)myControl).SelectionMode = DataGridViewSelectionMode.FullRowSelect;
